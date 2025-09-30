@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://cm0tkeoacijoa"]
+[gd_scene load_steps=6 format=3 uid="uid://cm0tkeoacijoa"]
 
 [ext_resource type="Texture2D" uid="uid://cedauhqttnjsw" path="res://assets/tilemaps/tilemap_color1.png" id="1_nnsk1"]
 [ext_resource type="PackedScene" uid="uid://dkfhbke3jeicr" path="res://objects/player/player.tscn" id="2_rwgxs"]
+[ext_resource type="PackedScene" uid="uid://dusawnf5n2d32" path="res://objects/enemies/red_warrior/red_warrior.tscn" id="3_4wyf3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nnsk1"]
 texture = ExtResource("1_nnsk1")
@@ -1343,3 +1344,6 @@ layer_0/tile_data = PackedInt32Array(2228219, 327681, 4, 2293755, 327681, 5, 235
 
 [node name="Player" parent="." instance=ExtResource("2_rwgxs")]
 position = Vector2(71, 457)
+
+[node name="RedWarrior" parent="." instance=ExtResource("3_4wyf3")]
+position = Vector2(1072, 488)

@@ -3,7 +3,7 @@ extends CharacterBody2D
 const GRAVITY: float = 1000.0
 
 var speed: float = 300.0
-var jump_force: float = -350.0
+var jump_force: float = -400.0
 
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var collision: CollisionShape2D = $CollisionShape2D
