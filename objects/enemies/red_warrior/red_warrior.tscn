@@ -1,0 +1,210 @@
+[gd_scene load_steps=31 format=3 uid="uid://dusawnf5n2d32"]
+
+[ext_resource type="Texture2D" uid="uid://dp5paknfjtmlv" path="res://assets/sprites/units/red_units/warrior/warrior_idle.png" id="1_7kkh2"]
+[ext_resource type="Texture2D" uid="uid://7aqimtnruh83" path="res://assets/sprites/units/red_units/warrior/warrior_attack1.png" id="1_wvfrk"]
+[ext_resource type="Texture2D" uid="uid://dc6yipgpxm37k" path="res://assets/sprites/units/red_units/warrior/warrior_guard.png" id="2_llp37"]
+[ext_resource type="Texture2D" uid="uid://dmxo6mbn24ksl" path="res://assets/sprites/units/red_units/warrior/warrior_run.png" id="3_llp37"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kp2my"]
+atlas = ExtResource("1_wvfrk")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5fgq"]
+atlas = ExtResource("1_wvfrk")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hx5a0"]
+atlas = ExtResource("1_wvfrk")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ij4np"]
+atlas = ExtResource("1_wvfrk")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sp5nv"]
+atlas = ExtResource("2_llp37")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b5n04"]
+atlas = ExtResource("2_llp37")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fcsp5"]
+atlas = ExtResource("2_llp37")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rkuh2"]
+atlas = ExtResource("2_llp37")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0h6k6"]
+atlas = ExtResource("2_llp37")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ofwnp"]
+atlas = ExtResource("2_llp37")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7kkh2"]
+atlas = ExtResource("1_7kkh2")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jrern"]
+atlas = ExtResource("1_7kkh2")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wvfrk"]
+atlas = ExtResource("1_7kkh2")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_llp37"]
+atlas = ExtResource("1_7kkh2")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3cvsy"]
+atlas = ExtResource("1_7kkh2")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x58ic"]
+atlas = ExtResource("1_7kkh2")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2du6k"]
+atlas = ExtResource("1_7kkh2")
+region = Rect2(1152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nfhgl"]
+atlas = ExtResource("1_7kkh2")
+region = Rect2(1344, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wlmxr"]
+atlas = ExtResource("3_llp37")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ts7q"]
+atlas = ExtResource("3_llp37")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wi7k0"]
+atlas = ExtResource("3_llp37")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ixupy"]
+atlas = ExtResource("3_llp37")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qjyh"]
+atlas = ExtResource("3_llp37")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_73vj1"]
+atlas = ExtResource("3_llp37")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jrern"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kp2my")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5fgq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hx5a0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ij4np")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sp5nv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b5n04")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fcsp5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rkuh2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0h6k6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ofwnp")
+}],
+"loop": true,
+"name": &"guard",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7kkh2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jrern")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wvfrk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_llp37")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3cvsy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x58ic")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2du6k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nfhgl")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wlmxr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ts7q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wi7k0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ixupy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qjyh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_73vj1")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7kkh2"]
+radius = 28.0713
+
+[node name="RedWarrior" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_jrern")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, -2)
+shape = SubResource("CircleShape2D_7kkh2")
