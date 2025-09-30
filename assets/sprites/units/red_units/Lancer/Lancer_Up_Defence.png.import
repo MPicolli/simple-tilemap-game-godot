@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcnnm2g3ero30"
-path="res://.godot/imported/Lancer_Up_Defence.png-67d733998eafc80310846adfa0b0f662.ctex"
+path="res://.godot/imported/lancer_up_defence.png-c508206f681603631b968198b868e353.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/units/red_units/Lancer/Lancer_Up_Defence.png"
-dest_files=["res://.godot/imported/Lancer_Up_Defence.png-67d733998eafc80310846adfa0b0f662.ctex"]
+source_file="res://assets/sprites/units/red_units/lancer/lancer_up_defence.png"
+dest_files=["res://.godot/imported/lancer_up_defence.png-c508206f681603631b968198b868e353.ctex"]
 
 [params]
 
