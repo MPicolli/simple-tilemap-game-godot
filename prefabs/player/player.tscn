@@ -1,7 +1,7 @@
 [gd_scene load_steps=32 format=3 uid="uid://dkfhbke3jeicr"]
 
 [ext_resource type="Texture2D" uid="uid://wo772h1lyrj4" path="res://assets/sprites/player/warrior/warrior_idle.png" id="1_g7ett"]
-[ext_resource type="Script" uid="uid://dvk6f03mgx2kf" path="res://objects/player/player.gd" id="1_gnkmh"]
+[ext_resource type="Script" uid="uid://dvk6f03mgx2kf" path="res://prefabs/player/player.gd" id="1_gnkmh"]
 [ext_resource type="Texture2D" uid="uid://bft4y50p4sy0c" path="res://assets/sprites/player/warrior/warrior_attack1.png" id="1_jnjyq"]
 [ext_resource type="Texture2D" uid="uid://bsffuis5wd3jr" path="res://assets/sprites/player/warrior/warrior_guard.png" id="1_ssrue"]
 [ext_resource type="Texture2D" uid="uid://bikpc0cw0pwvj" path="res://assets/sprites/player/warrior/warrior_run.png" id="2_ssrue"]
@@ -210,3 +210,5 @@ animation = &"run"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, -2)
 shape = SubResource("CircleShape2D_g7ett")
+
+[node name="Camera2D" type="Camera2D" parent="."]

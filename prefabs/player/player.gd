@@ -7,6 +7,7 @@ var jump_force: float = -400.0
 
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var collision: CollisionShape2D = $CollisionShape2D
+@onready var camera: Camera2D = $Camera2D
 
 var direction_x: float = 0.0
 var direction_y: float = 0.0

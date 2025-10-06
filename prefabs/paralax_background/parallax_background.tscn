@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://bkttrcxluimfb"]
+
+[ext_resource type="Texture2D" uid="uid://c5lamx6ly0uvo" path="res://assets/sprites/background/sky4/1.png" id="1_01p60"]
+[ext_resource type="Script" uid="uid://bef0v0c6k5r54" path="res://prefabs/paralax_background/parallax_layer.gd" id="1_sjngy"]
+[ext_resource type="Texture2D" uid="uid://ctrmu04mrtsgc" path="res://assets/sprites/background/sky4/3.png" id="2_sjngy"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="SkyLayer" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.2, 0.2)
+motion_mirroring = Vector2(576, 0)
+script = ExtResource("1_sjngy")
+
+[node name="TextureRect" type="TextureRect" parent="SkyLayer"]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_01p60")
+stretch_mode = 1
+
+[node name="CloudLayer" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(576, 0)
+script = ExtResource("1_sjngy")
+
+[node name="TextureRect" type="TextureRect" parent="CloudLayer"]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_sjngy")
+stretch_mode = 1

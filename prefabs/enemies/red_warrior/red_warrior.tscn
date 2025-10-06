@@ -1,6 +1,6 @@
 [gd_scene load_steps=32 format=3 uid="uid://dusawnf5n2d32"]
 
-[ext_resource type="Script" uid="uid://dnu1ipm0vt3cg" path="res://objects/enemies/red_warrior/red_warrior.gd" id="1_3cvsy"]
+[ext_resource type="Script" uid="uid://dnu1ipm0vt3cg" path="res://prefabs/enemies/red_warrior/red_warrior.gd" id="1_3cvsy"]
 [ext_resource type="Texture2D" uid="uid://dp5paknfjtmlv" path="res://assets/sprites/units/red_units/warrior/warrior_idle.png" id="1_7kkh2"]
 [ext_resource type="Texture2D" uid="uid://7aqimtnruh83" path="res://assets/sprites/units/red_units/warrior/warrior_attack1.png" id="1_wvfrk"]
 [ext_resource type="Texture2D" uid="uid://dc6yipgpxm37k" path="res://assets/sprites/units/red_units/warrior/warrior_guard.png" id="2_llp37"]
