@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://daeg75j0mkxhd"
-path="res://.godot/imported/lancer_up_attack.png-12c65f16d2231218196bf6243acfcb4c.ctex"
+path="res://.godot/imported/Lancer_Up_Attack.png-64e15b49ad2987d1dc689eec539265b4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/units/red_units/lancer/lancer_up_attack.png"
-dest_files=["res://.godot/imported/lancer_up_attack.png-12c65f16d2231218196bf6243acfcb4c.ctex"]
+source_file="res://assets/sprites/units/red_units/Lancer/Lancer_Up_Attack.png"
+dest_files=["res://.godot/imported/Lancer_Up_Attack.png-64e15b49ad2987d1dc689eec539265b4.ctex"]
 
 [params]
 
