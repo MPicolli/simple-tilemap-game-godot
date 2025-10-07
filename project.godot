@@ -15,10 +15,6 @@ run/main_scene="uid://cm0tkeoacijoa"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[display]
-
-window/stretch/mode="viewport"
-
 [dotnet]
 
 project/assembly_name="Game with Tilemap"
@@ -27,6 +23,3 @@ project/assembly_name="Game with Tilemap"
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
-environment/size/borderless=false
-environment/stretch/scale_mode="fractional"
-environment/stretch/mode="disabled"
